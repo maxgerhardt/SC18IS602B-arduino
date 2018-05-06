@@ -8,8 +8,6 @@ SC18IS602B spiBridge;
  * */
 
 void setup() {
-	Serial.begin(115200);
-
 	//Startup I2C interface on D1 (SDA) and D2 (SCL)
 	//for the ESP8266
 #ifdef ARDUINO_ARCH_ESP8266
