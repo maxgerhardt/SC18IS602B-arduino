@@ -26,8 +26,8 @@ All I/O levels are 3.3V! Make sure you have a level-shifter if you connect it to
 
 * VSS to GND
 * VDD to 3.3V
-* SDA and SCL to your boards I2C bus
-* MISO, MOSI, SCLK and SS0 to SS3  **or** SS0 to SS3 as GPIOs to wherever your like
+* SDA and SCL to your board's I2C bus
+* MISO, MOSI, SCLK and SS0 to SS3 to your target device's SPI bus(ses) **or** SS0 to SS3 as GPIOs to wherever your like
 * RESET to some pin on your microcontroller (optional)
 * INT is not used, data buffer is polled instead
 
@@ -39,7 +39,7 @@ Run the [I2C scanner sketch](https://playground.arduino.cc/Main/I2cScanner) to c
 
 * datasheet: https://www.nxp.com/docs/en/data-sheet/SC18IS602B.pdf
 
-### Other resources:
+### Other resources
 
 * Buyable module: http://sandboxelectronics.com/?product=sc18is602-i2c-to-spi-bridge-module
 * Datasheet for that module: http://sandboxelectronics.com/?p=485
