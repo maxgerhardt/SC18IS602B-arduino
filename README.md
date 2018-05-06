@@ -35,7 +35,7 @@ All I/O levels are 3.3V! Make sure you have a level-shifter if you connect it to
 
 Run the [I2C scanner sketch](https://playground.arduino.cc/Main/I2cScanner) to check if your device can see the I2C device and whether the address is the expected one.
 
-### Techinical documents
+### Technical documents
 
 * datasheet: https://www.nxp.com/docs/en/data-sheet/SC18IS602B.pdf
 
